@@ -11,12 +11,11 @@ class Student(Person):
         self.studentid = int(studentid)
         self.housegroup = housegroup
         super().__init__(firstname, lastname)
-        classes = []
+        self.classes = []
     
     def enrolclass(self):
         clas = input("What classes do you actually pay attention in?")
-        self.classes.append(clas)
-        print(self.classes)
+        print(self.classes.append(clas))
 
 yum = Student(182746458364856374735485985348454, "gvhfukes gvryeuk", "bvfhuks fgfehwuk vfeghuwk vgfuwke gvfuewk gvyfukw gvyfuwk gvyfuwek", "gfeywukbhwdqjcvbnsmhejkwhfukewgceh fhejkwhfejdkwjgcd hjwk cgjk")
 yum.enrolclass()
