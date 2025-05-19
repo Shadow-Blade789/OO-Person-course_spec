@@ -14,8 +14,11 @@ class Student(Person):
         self.classes = []
     
     def enrolclass(self):
-        clas = input("What classes do you actually pay attention in?")
-        print(self.classes.append(clas))
+        clas = input("What classes do you actually pay attention in? ")
+        self.classes.append(clas)
+        print(f"Enrolled in: {clas}")
+        print(f"Current class list: {self.classes.''replace("[" and "'" and "]")}")
+
 
 yum = Student(182746458364856374735485985348454, "gvhfukes gvryeuk", "bvfhuks fgfehwuk vfeghuwk vgfuwke gvfuewk gvyfukw gvyfuwk gvyfuwek", "gfeywukbhwdqjcvbnsmhejkwhfukewgceh fhejkwhfejdkwjgcd hjwk cgjk")
 yum.enrolclass()
